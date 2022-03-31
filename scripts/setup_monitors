@@ -1,0 +1,14 @@
+
+if [ $(xrandr --query | grep " connected" | wc -l) -gt 1 ];
+then
+  xrandr --output DP-2-1 --primary
+  mons -S 6,5:R
+  cp $HOME/.config/i3/config_main $HOME/.config/i3/config
+  i3-msg restart
+else
+  mons -o
+  cp $HOME/.config/i3/config_laptop $HOME/.config/i3/config
+  i3-msg restart
+fi
+
+. ~/.profile
