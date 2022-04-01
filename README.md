@@ -1,5 +1,7 @@
 # Dotfiles
 
+https://github.com/anishredz25/dotfiles/blob/main/screenshots/example.png
+
 A set of configuration files for my Linux Mint setup with i3 and polybar
 
 (Theme: Dracula)
