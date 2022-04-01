@@ -188,8 +188,8 @@ mode "gaps" {
 }
 
 # modes
-bindsym $mod+r mode "resize"
-bindsym $mod+g mode "gaps"
+bindsym $mod+p mode "resize"
+bindsym $mod+Shift+p mode "gaps"
 
 #======================================================================================
 # Audio
